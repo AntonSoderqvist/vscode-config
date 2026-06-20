@@ -1,0 +1,162 @@
+[
+	{
+		"key": "space e",
+		"command": "workbench.view.explorer",
+		"when": "vim.mode == 'Normal' && !inQuickOpen && editorFocus"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "explorerViewletFocus && explorerViewletFocus"
+	},
+	{
+		"key": "space s",
+		"command": "workbench.action.files.save",
+		"when": "vim.mode == 'Normal' && editorFocus"
+	},
+	{
+		"key": "space h",
+		"command": "workbench.action.previousEditor",
+		"when": "vim.mode == 'Normal' && editorFocus"
+	},
+	{
+		"key": "space l",
+		"command": "workbench.action.nextEditor",
+		"when": "vim.mode == 'Normal' && editorFocus"
+	},
+	{
+		"key": "space shift+h",
+		"command": "workbench.action.previousEditor",
+		"when": "vim.mode == 'Normal' && editorFocus"
+	},
+	{
+		"key": "space shift+l",
+		"command": "workbench.action.nextEditor",
+		"when": "vim.mode == 'Normal' && editorFocus"
+	},
+	{
+		"key": "space o l",
+		"command": "workbench.action.moveEditorToRightGroup",
+		"when": "vim.mode == 'Normal' && editorGroupCount == 2 && editorFocus"
+	},
+	{
+		"key": "space o h",
+		"command": "workbench.action.moveEditorToLeftGroup",
+		"when": "vim.mode == 'Normal' && editorGroupCount == 2 && editorFocus"
+	},
+	{
+		"key": "space v a",
+		"command": "vscode-harpoon.addEditor",
+		"when": "vim.mode == 'Normal' && editorFocus"
+	},
+	{
+		"key": "space v e",
+		"command": "vscode-harpoon.editorQuickPick",
+		"when": "vim.mode == 'Normal' && editorFocus"
+	},
+	{
+		"key": "space v 1",
+		"command": "vscode-harpoon.gotoEditor1",
+		"when": "vim.mode == 'Normal' && editorFocus"
+	},
+	{
+		"key": "space v 2",
+		"command": "vscode-harpoon.gotoEditor2",
+		"when": "vim.mode == 'Normal' && editorFocus"
+	},
+	{
+		"key": "space f f",
+		"command": "find-it-faster.findFiles",
+		"when": "vim.mode == 'Normal' && editorFocus"
+	},
+	{
+		"key": "space f g",
+		"command": "find-it-faster.findWithinFiles",
+		"when": "vim.mode == 'Normal' && editorFocus"
+	},
+	{
+		"key": "space t",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "vim.mode == 'Normal' && editorFocus"
+	},
+	{
+		"key": "ctrl+t",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "vim.mode == 'Normal'"
+	},
+	{
+		"key": "space c",
+		"command": "github.copilot.chat.focus",
+		"when": "vim.mode == 'Normal' && editorTextFocus"
+	},
+	{
+		"key": "ctrl+L",
+		"command": "editor.action.inlineSuggest.acceptNextLine",
+		"when": "inlineSuggestionVisible"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "editor.action.inlineSuggest.acceptNextWord",
+		"when": "inlineSuggestionVisible"
+	},
+	{
+		"key": "ctrl+enter",
+		"command": "editor.action.inlineSuggest.trigger",
+		"when": "inlineSuggestionVisible"
+	},
+	{
+		"key": "f",
+		"command": "explorer.newFile",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "d",
+		"command": "explorer.newFolder",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "r",
+		"command": "renameFile",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "ctrl+w",
+		"command": "workbench.action.closeActiveEditor",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+w",
+		"command": "workbench.action.closeEditorsInGroup",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "workbench.action.terminal.new",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "workbench.action.terminal.focusPrevious",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "workbench.action.terminal.focusNext",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+alt+p",
+		"command": "markdown.showPreview",
+		"when": "!notebookEditorFocused && editorLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/"
+	},
+	{
+		"key": "ctrl+shift+v",
+		"command": "-markdown.showPreview",
+		"when": "!notebookEditorFocused && editorLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/"
+	},
+	{
+		"key": "ctrl+shift+c",
+		"command": "-workbench.action.terminal.openNativeConsole",
+		"when": "!terminalFocus"
+	}
+]

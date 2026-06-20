@@ -1,0 +1,48 @@
+{
+    "telemetry.feedback.enabled": false,
+    "window.newWindowProfile": "Default",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++-13",
+    "vim.leader": " ",
+    "vim.normalModeKeyBindings": [],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<Tab>"
+            ],
+            "after": [
+                ">"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.colorTheme": "Everforest Dark",
+    "svelte.enable-ts-plugin": true,
+    "files.associations": {
+        "*.prompt": "*.txt"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "chat.viewSessions.orientation": "stacked",
+}

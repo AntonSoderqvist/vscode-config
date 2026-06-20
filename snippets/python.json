@@ -1,0 +1,16 @@
+{
+    "Sphinx Function Docstring": {
+        "prefix": "sphinxfunc",
+        "body": [
+            "\"\"\"",
+            "${1:Summary line.}",
+            "",
+            ":param ${2:param}: ${3:desciption}",
+            ":type ${2:param}: ${4:type}",
+            ":return: ${5:description}",
+            ":rtype: ${6:type}",
+            "\"\"\""
+        ],
+        "description": "Sphinx-style function docstring"
+    }
+}
